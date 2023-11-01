@@ -1,29 +1,33 @@
-/* Customize your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+}
 
-/* Header styles */
+/* Styling the header section */
 header {
-    background-color: #f8d7da; /* Light pink */
-    color: #721c24; /* Dark red */
+    background-color: #f8f9fa;
+    padding: 10px;
 }
 
-/* Navbar styles */
-nav {
-    background-color: #f5c6cb; /* Slightly darker pink */
+/* Styling for the navigation bar */
+.navbar {
+    background-color: #f8f9fa;
 }
 
-.nav-link {
-    color: #721c24 !important; /* Dark red */
+/* Styling for the main content */
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
 
-/* Carousel styles */
+/* Styling for the carousel */
 .carousel-inner img {
     width: 100%;
     height: auto;
-    max-height: 500px;
 }
 
-/* Footer styles */
-footer {
-    background-color: #f8d7da; /* Light pink */
-    color: #721c24; /* Dark red */
+/* Custom styling for different sections, modify as needed */
+.custom-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
 }
