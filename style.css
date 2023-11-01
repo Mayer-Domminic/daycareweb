@@ -1,0 +1,29 @@
+/* Customize your CSS styles here */
+
+/* Header styles */
+header {
+    background-color: #f8d7da; /* Light pink */
+    color: #721c24; /* Dark red */
+}
+
+/* Navbar styles */
+nav {
+    background-color: #f5c6cb; /* Slightly darker pink */
+}
+
+.nav-link {
+    color: #721c24 !important; /* Dark red */
+}
+
+/* Carousel styles */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f8d7da; /* Light pink */
+    color: #721c24; /* Dark red */
+}
