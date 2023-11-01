@@ -15,16 +15,21 @@
     <header class="py-1 bg-light">
         <div class="container text-end">
             <span>Contact Us: (123) 456-7890 </span>
-            <span><img src="images/phone-icon.png" alt="Phone"></span>
-            <span><img src="images/facebook-icon.png" alt="Facebook"></span>
-            <span><img src="images/map-icon.png" alt="Location"></span>
+            <a href="tel:1234567890"><img src="images/phone-icon.png" alt="Phone"></a>
+            <a href="https://www.facebook.com/yourdaycare" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://goo.gl/maps/yourmaplink" target="_blank"><img src="images/map-icon.png" alt="Location"></a>
+            <span> 1234 Elm Street, YourCity, YS, 12345</span>
         </div>
     </header>
+
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">Daycare Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -48,7 +53,7 @@
     </nav>
 
     <!-- Carousel -->
-    <div id="welcomeCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="welcomeCarousel" class="carousel slide container" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="image1.jpg" class="d-block w-100" alt="Welcome to our Daycare">
@@ -61,6 +66,20 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Welcome</h2>
+                <!-- Add more content here -->
+            </div>
+            <div class="col-md-4 offset-md-2">
+                <h2>Latest News</h2>
+                <!-- Add more content here -->
+            </div>
+        </div>
+    </div>
+
 
     <!-- Footer -->
     <footer class="bg-light py-4">
