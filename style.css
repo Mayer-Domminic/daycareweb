@@ -31,3 +31,70 @@ header {
     padding: 50px 0;
     background-color: #f8f9fa;
 }
+
+.newsList {
+    list-style-type: none;
+    /* Removes default bullet points */
+    padding: 0;
+}
+
+.newsList li {
+    margin-bottom: 10px;
+    /* Adjust space between list items */
+    position: relative;
+    padding-left: 25px;
+    /* Provide space for the icon */
+}
+
+
+.newsList li .fa-bell {
+    position: absolute;
+    left: 0;
+    /* Aligns the icon to the left */
+    top: 0;
+    /* Adjust this if needed to align vertically with the text */
+    color: #000000;
+    /* Change color if necessary */
+    /* You can also adjust the size, color, etc., of the icon here */
+
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.no-gutters>div {
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+    /* This makes the positioning of the overlay text relative to each div */
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+/* Positioning for h3 */
+.h3-overlay {
+    position: absolute;
+    bottom: 50px;
+    /* Adjust this value as needed */
+    left: 40px;
+    /* Adjust this value as needed */
+    color: white;
+    /* Add more styles if needed */
+    text-decoration: underline;
+}
+
+/* Positioning for paragraph */
+.p-overlay {
+    position: absolute;
+    bottom: 20px;
+    /* Keeps paragraph at the bottom */
+    left: 40px;
+    /* Adjust this value as needed */
+    color: white;
+    /* Add more styles if needed */
+}
