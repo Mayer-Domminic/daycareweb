@@ -21,36 +21,36 @@ header {
 }
 
 /* Styling for the carousel */
-.carousel-inner img {
-    width: 100%;
-    height: auto;
-}
-
 .carousel-caption {
     position: absolute;
-    bottom: 100px; /* Increase the spacing from the bottom */
-    left: 15%; /* Center the caption */
-    right: 15%; /* Center the caption */
-    background: rgba(0, 0, 0, 0.5); /* Dark background for readability */
-    color: #fff;
-    padding: 20px;
-    border-radius: 8px; /* Rounded corners */
-    text-align: center; /* Center the text */
+    bottom: 10%; /* Adjust as needed */
+    left: 10%; /* Adjust as needed */
+    right: 10%; /* Adjust as needed */
+    text-align: left;
+}
+
+.carousel-caption h5 {
+    font-size: 1.25rem; /* Smaller font size for the sub-heading */
+    color: #000; /* Adjust the color as needed */
+}
+
+.carousel-caption h2 {
+    font-size: 2.5rem; /* Larger font size for the main title */
+    color: #ffcc00; /* Adjust the color to match the style */
+}
+
+.carousel-caption p {
+    font-size: 1rem; /* Size for the paragraph */
+    color: #333; /* Paragraph color, choose a readable one */
 }
 
 .learn-more-btn {
-    position: absolute;
-    bottom: 20px; /* Adjust this to place above the footer of the carousel image */
-    left: 50%; /* Center the button horizontally */
-    transform: translateX(-50%); /* Ensure it's centered regardless of width */
-    background-color: #ffd700; /* Gold color */
-    color: #fff;
-    padding: 10px 25px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    z-index: 20; /* Ensure it's above other elements */
+    background-color: #ffcc00; /* Button background color */
+    border-color: #ffcc00; /* Button border color */
+    color: #000; /* Text color for the button */
+    /* Other styles remain the same */
 }
+
 
 
   
