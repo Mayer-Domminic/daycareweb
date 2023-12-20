@@ -1,6 +1,5 @@
-document.addEventListener('DOMContentLoaded', function () {
-    $('#welcomeCarousel').carousel({
-        interval: 2000, // Adjust the time between transitions here
-    });
+document.addEventListener("DOMContentLoaded", function() {
+    $('.carousel').carousel({
+        interval: 2000
+      })
 });
-//test commit
