@@ -20,37 +20,6 @@ header {
     padding: 20px;
 }
 
-/* Styling for the carousel */
-.carousel-caption {
-    position: absolute;
-    bottom: 10%; /* Adjust as needed */
-    left: 10%; /* Adjust as needed */
-    right: 10%; /* Adjust as needed */
-    text-align: left;
-}
-
-.carousel-caption h5 {
-    font-size: 1.25rem; /* Smaller font size for the sub-heading */
-    color: #000; /* Adjust the color as needed */
-}
-
-.carousel-caption h2 {
-    font-size: 2.5rem; /* Larger font size for the main title */
-    color: #ffcc00; /* Adjust the color to match the style */
-}
-
-.carousel-caption p {
-    font-size: 1rem; /* Size for the paragraph */
-    color: #333; /* Paragraph color, choose a readable one */
-}
-
-.learn-more-btn {
-    background-color: #ffcc00; /* Button background color */
-    border-color: #ffcc00; /* Button border color */
-    color: #000; /* Text color for the button */
-    /* Other styles remain the same */
-}
-
 
 
   
