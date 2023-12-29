@@ -1,3 +1,16 @@
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -20,8 +33,31 @@ header {
     padding: 20px;
 }
 
+/* Carousel Styling */
+.carousel {
+    padding-bottom: 10px;
+}
 
+.header .a {
+    color: white;
+}
 
+/* Pop-out form styles */
+.form-popup {
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 600px; /* Maximum width */
+  }
+  
+  /* Add styles for your form inputs and buttons here */
   
 
 /* Custom styling for different sections, modify as needed */
