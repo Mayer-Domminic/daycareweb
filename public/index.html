@@ -16,14 +16,14 @@
     <header class="py-1 bg-light header">
         <div class="container text-end">
             <span>License number 173009718 </span>
-            <a href="https://www.facebook.com/profile.php?id=100063643806636&mibextid=ZbWKwL" target="_blank"><img height='20' width='20' src="imgs/fb-logo.png" alt="Facebook"></a>
+            <a href="https://www.facebook.com/profile.php?id=100063643806636&mibextid=ZbWKwL" target="_blank"><img height='20' width='20' src="fb-logo.png" alt="Facebook"></a>
             <a href="tel:(707)350-3091">
                 Contact Us: (707)350-3091
-                <img height='20' width='20' src="imgs/phone-icon.jpg" alt="Phone">
+                <img height='20' width='20' src="phone-icon.jpg" alt="Phone">
             </a>
             <a href="https://maps.app.goo.gl/e36G2pbRN8zaL36B6">
                 5695 Arapaho Way, Kelseyville, Ca 95451
-                <img height='20' width='20' src="imgs/gm-icon.png" alt="Location">
+                <img height='20' width='20' src="gm-icon.png" alt="Location">
             </a>
         </div>
     </header>
@@ -69,21 +69,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="imgs/widelengthfam.jpg" class="d-block w-100" alt="...">
+            <img src="widelengthfam.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Welcoming All</h5>
               <p>Your child will become a part of our family.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="imgs/widelengthjpg.jpg" class="d-block w-100" alt="...">
+            <img src="widelengthjpg.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Play Area</h5>
               <p>Fun spacious area for activities and games.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="imgs/widelength-happy.jpg" class="d-block w-100" alt="...">
+            <img src="widelength-happy.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Unique Education</h5>
               <p>Enjoy a educationally rich environment meant for growth.</p>
@@ -98,9 +98,10 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
 
 
+    <!-- 2 container news + welcome -->
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -143,7 +144,10 @@
 
         </div>
     </div>
-    
+
+
+    <!-- 3 container img + content -->
+    <div class="container">
         <div class="row no-gutters">
             <div class="col-md-4">
                 <img src="https://via.placeholder.com/300" class="img-fluid" alt="Placeholder Image">
@@ -161,12 +165,36 @@
                 <p class="p-overlay">Placeholder Text 3</p>
             </div>
         </div>
+    </div>
     
+
+    <!-- Trigger Button -->
+    <button id="contactFormButton">Request a Tour / Contact Us</button>
+
+    <!-- Pop-Out Form (initially hidden) -->
+    <div id="contactFormPopOut" class="form-popup" style="display: none;">
+      <form action="/submitForm" method="post">
+        <h2>Inquiries / Request a Tour</h2>
+        <input type="text" placeholder="Parent's Name" name="parent_name" required>
+        <input type="tel" placeholder="Parent's Phone" name="parent_phone" required>
+        <input type="email" placeholder="Parent's Email" name="parent_email" required>
+        <input type="text" placeholder="Child's Name" name="child_name">
+        <input type="date" placeholder="Child's Birthdate" name="child_birthdate">
+        <select name="interested_in">
+          <option value="">Please choose...</option>
+          <!-- Add options here -->
+        </select>
+        <input type="date" placeholder="Anticipated Start Date" name="start_date">
+        <textarea placeholder="Comments" name="comments"></textarea>
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+
+
+
+    <!-- Google Maps View -->
     <div class="container">
         <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=5695%20Arapaho%20Way,%20Kelseyville,%20CA%2095451+(Melissa's%20Family%20Daycare)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-            <a href="https://www.maps.ie/population/">
-                Calculate population in area
-            </a>
         </iframe>
     </div>
 
