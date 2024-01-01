@@ -38,6 +38,27 @@ header {
     padding-bottom: 10px;
 }
 
+.carousel-item img {
+    max-height: 600px; /* Adjust the value as needed */
+    width: auto; /* This will maintain the aspect ratio */
+    max-width: 100%; /* This will prevent the image from exceeding the width of its container */
+  }
+  
+  .carousel {
+    max-height: 600px; /* Adjust the value as needed */
+  }
+  
+  /* If you want the carousel to be responsive and maintain aspect ratio */
+  @media (max-width: 768px) {
+    .carousel-item img {
+      max-height: 300px; /* Smaller height for smaller screens */
+    }
+    .carousel {
+      max-height: 300px;
+    }
+  }
+  
+
 .header .a {
     color: white;
 }
