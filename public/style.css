@@ -17,13 +17,13 @@ body {
 
 /* Styling the header section */
 header {
-    background-color: #f8f9fa;
+    background-color: #cecece9a;
     padding: 10px;
 }
 
 /* Styling for the navigation bar */
 .navbar {
-    background-color: #f8f9fa;
+    background-color: #f8f9fa8b;
 }
 
 /* Styling for the main content */
@@ -107,7 +107,7 @@ header {
 
 .img-fluid {
     width: 100%;
-    height: auto;
+    height: 300;
 }
 
 /* Positioning for h3 */
