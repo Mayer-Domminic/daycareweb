@@ -1,3 +1,35 @@
+/*  RESETTING CSS STUFF!! */
+html, body, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 5px 0;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+#Mheader {
+    display: flex;
+    flex-direction: row;
+}
+
+#headerRight {
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
 /* Custom styling for different sections, modify as needed */
 .custom-section {
     padding: 50px 0;
