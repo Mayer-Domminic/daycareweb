@@ -103,7 +103,7 @@ h4 {
 
 }
 
-#three-image {
+.three-image {
     opacity: 1;
     display: block;
     transition: 0.5s ease;
@@ -111,12 +111,12 @@ h4 {
 
 
 /*hover effect*/
-#three-image:hover {
+.three-image:hover {
     opacity: 0.3;
 }
 
 /*hides text overlay*/
-#three-image:hover .text-overlay{
+.three-image:hover .text-overlay{
     display: none;
 }
 
@@ -131,11 +131,14 @@ h4 {
     background-color: rgb(0, 128, 255);
 }
 
-#three-image:hover .hidden-button {
+.col-md-4:hover .hidden-button {
     display: block;
     opacity: 1;
 }
 
+.hidden-button:hover .three-image {
+    opacity: 0.3;
+}
 
 /* Positioning for h3 */
 .h3-overlay {
