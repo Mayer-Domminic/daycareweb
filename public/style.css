@@ -217,7 +217,7 @@ h4 {
         text-align: center;
         margin-bottom: 1.5rem;
     }
-    
+
     .footer .col-md-4:last-child {
         margin-bottom: 0; /* Remove margin for the last column on small screens */
     }
@@ -228,6 +228,28 @@ h4 {
     color: #6c757d; /* Dark gray text */
     margin-top: 1rem; /* Space above the copyright text */
     font-size: 0.8rem; /* Smaller font size for copyright text */
+}
+
+#footerCarousel {
+    margin-top: 20px;
+}
+
+#footerCarousel .carousel-inner {
+    padding: 15px;
+    background-color: #f8f9fa;
+}
+
+#footerCarousel .carousel-item {
+    text-align: center;
+}
+
+#footerCarousel .carousel-item h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#footerCarousel .carousel-item p {
+    color: #666;
 }
 
 
