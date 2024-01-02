@@ -46,28 +46,7 @@ h4 {
     font-size: 1.25rem;
 }
 
-/*  BUTTON */
-.contact-button {
-    text-align: center;
-    margin-top: 20px;
-}
-/*  BUTTON */
-.contact-button a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: white;
-    color: #000000;
-    text-decoration: none;
-    border: 3px solid transparent;
-    border-image: linear-gradient(to right, yellow, limegreen);
-    border-image-slice: 1;
-    font-weight: bold;
-}
-/*  BUTTON */
-.contact-button a:hover {
-    background: linear-gradient(to right, limegreen, yellow);
-    border: 3px solid black;
-}
+
 
 
 
@@ -200,4 +179,29 @@ h4 {
     color: #6c757d; /* Dark gray text */
     margin-top: 1rem; /* Space above the copyright text */
     font-size: 0.8rem; /* Smaller font size for copyright text */
+}
+
+
+
+/*  BUTTON */
+.contact-button {
+    text-align: center;
+    margin-top: 20px;
+}
+/*  BUTTON */
+.contact-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, yellow, limegreen);
+    border-image-slice: 1;
+    font-weight: bold;
+}
+/*  BUTTON */
+.contact-button a:hover {
+    background: linear-gradient(to right, limegreen, yellow);
+    border: 3px solid black;
 }
