@@ -147,13 +147,9 @@ ul {
     position: absolute;
     bottom: .8rem;
     left: .8rem;
-    bottom: 18%;
+    bottom: 25%;
     color: white;
     text-decoration: underline;
-}
-
-#h3oc {
-    bottom: 25%;
 }
 /* Positioning for paragraph */
 .p-overlay {
