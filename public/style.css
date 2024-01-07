@@ -9,15 +9,19 @@ html, body, a, p, ul, h1, h2, h3, h4 {
     padding: 0;
 }
 
-body {
-    background-color: rgb(233, 201, 170);
-}
-
 header {
-    background-color: #f0f0f0;
+    background-color: #abb6a0;
     padding: 5px 0 7px 0;
     font-size: 1.2rem;
     align-items: center;
+}
+
+nav {
+    background-color: 	#d6d6c3;
+}
+
+body {
+    background-color: 	#dbc5a5;
 }
 
 #main-header {
@@ -36,10 +40,12 @@ header {
 h1 {
     font-size: 1.75rem;
     font-weight: bold;
+    color: #36563e;
 }
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 2.75rem;
+    font-weight: bolder;
 }
 
 h3 {
@@ -50,8 +56,26 @@ h4 {
     font-size: 1.25rem;
 }
 
-.wtxt {
+h5 {
     color: white;
+    font-size: 1.75rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.carousel-txt {
+    font-weight: 400;
+    color: white;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50%;
+  width: 50%;
+  outline: black;
 }
 
 .navbar .nav-link {
