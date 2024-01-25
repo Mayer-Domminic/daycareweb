@@ -1,12 +1,40 @@
 /*  RESETTING CSS STUFF!! */
-html, body, a, p, ul, h1, h2, h3, h4 {
+html,
+body,
+a,
+p,
+ul,
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
     padding: 0;
     text-decoration: none;
     text-emphasis: normal;
     color: #000000;
-    margin: 0;
-    padding: 0;
+}
+
+/* ADJUST THIS FOR MAX CONTAINER */
+@media (min-width: 1100px) {
+    .container {
+        width: 920px;
+    }
+}
+
+/* HEADER STYLE */
+.short-text {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .short-text {
+        display: inline-block;
+    }
+
+    .full-text {
+        display: none;
+    }
 }
 
 header {
@@ -16,23 +44,27 @@ header {
     align-items: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 nav {
-    background-color: 	#E9EDC9;
+    background-color: #E9EDC9;
 }
 
 body {
-    background-color: 	#FEFAE0;
+    background-color: #FEFAE0;
 }
 
-#main-header {
-    display: flex;
-}
-
-#headerRight {
-    margin-left: auto;
-}
-
-.header img, .footer img {
+.header img,
+.footer img {
     height: 1rem;
     width: 1rem;
 }
@@ -73,9 +105,9 @@ p {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 50%;
-  width: 50%;
-  outline: black;
+    height: 50%;
+    width: 50%;
+    outline: black;
 }
 
 .navbar .nav-link {
@@ -163,6 +195,7 @@ ul {
     color: white;
     text-decoration: underline;
 }
+
 /* Positioning for paragraph */
 .p-overlay {
     position: absolute;
@@ -172,35 +205,46 @@ ul {
 }
 
 .footer {
-    background-color: #E9EDC9; /* Light gray background */
-    color: #6c757d; /* Dark gray text */
+    background-color: #E9EDC9;
+    /* Light gray background */
+    color: #6c757d;
+    /* Dark gray text */
 }
 
 .footer h5 {
-    color: #343a40; /* Slightly darker color for headings */
-    margin-bottom: 0.5rem; /* Spacing under headings */
+    color: #343a40;
+    /* Slightly darker color for headings */
+    margin-bottom: 0.5rem;
+    /* Spacing under headings */
 }
 
 .footer p {
-    font-size: 0.9rem; /* Smaller font size for footer text */
+    font-size: 0.9rem;
+    /* Smaller font size for footer text */
 }
 
 .footer a {
-    color: #007bff; /* Bootstrap primary color for links */
-    text-decoration: none; /* No underline on links */
+    color: #007bff;
+    /* Bootstrap primary color for links */
+    text-decoration: none;
+    /* No underline on links */
 }
 
 .footer a:hover {
-    text-decoration: underline; /* Underline on hover for better usability */
+    text-decoration: underline;
+    /* Underline on hover for better usability */
 }
 
 .footer ul {
-    padding-left: 0; /* Remove default padding */
-    list-style-type: none; /* No bullet points */
+    padding-left: 0;
+    /* Remove default padding */
+    list-style-type: none;
+    /* No bullet points */
 }
 
 .footer .fas {
-    margin-right: 0.5rem; /* Space between icon and text */
+    margin-right: 0.5rem;
+    /* Space between icon and text */
 }
 
 /* Center content on small screens and add padding */
@@ -211,15 +255,19 @@ ul {
     }
 
     .footer .col-md-4:last-child {
-        margin-bottom: 0; /* Remove margin for the last column on small screens */
+        margin-bottom: 0;
+        /* Remove margin for the last column on small screens */
     }
 }
 
 /* Footer copyright text style */
 .footer .text-center p {
-    color: #6c757d; /* Dark gray text */
-    margin-top: 1rem; /* Space above the copyright text */
-    font-size: 0.8rem; /* Smaller font size for copyright text */
+    color: #6c757d;
+    /* Dark gray text */
+    margin-top: 1rem;
+    /* Space above the copyright text */
+    font-size: 0.8rem;
+    /* Smaller font size for copyright text */
 }
 
 #footerCarousel {
@@ -251,6 +299,7 @@ ul {
     text-align: center;
     margin-top: 10px;
 }
+
 /*  BUTTON */
 .contact-button a {
     display: inline-block;
@@ -263,6 +312,7 @@ ul {
     border-image-slice: 1;
     font-weight: bold;
 }
+
 /*  BUTTON */
 .contact-button a:hover {
     background: linear-gradient(to right, limegreen, yellow);
