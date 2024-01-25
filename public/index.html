@@ -7,30 +7,33 @@
     <title>Melissa's Family Daycare</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
 
     <!-- Header -->
-    <header class="header py-1">
+    <header class="header">
         <div class="container">
-            <div class="row align-items-center">
-                <!-- Header Left -->
-                <div class="col-lg-5 col-md-12 text-lg-start text-center mb-lg-0 mb-2">
-                    <span>License #173009718</span>
-                    <a href="https://www.facebook.com/people/Melissas-family-daycare/100063643806636/" target="_blank">
-                        <img src="facebook.png" alt="Facebook" height="20" width="20">
+            <div class="row">
+                <div class="col-5">
+                    <a href="" target="_blank">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <span class="full-text">License #173009718</span>
+                        <span class="short-text">L#173009718</span>
                     </a>
                 </div>
-                <!-- Header Right -->
-                <div class="col-lg-7 col-md-12 text-lg-end text-center">
-                    <a href="tel:(707)350-3091" class="me-2">
-                        <img src="DM-CALL-black-1024x.png" alt="Phone" height="20" width="20">
-                        Call Me: 707-350-3091
+                <div class="col-7 d-flex justify-content-end">
+                    <a class="" href="">
+                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                        <span class="full-text">707-350-3091&nbsp;</span>
+                        <span class="short-text">Phone&nbsp;</span>
                     </a>
                     <a href="https://maps.app.goo.gl/e36G2pbRN8zaL36B6">
-                        <img src="DM-MAP-black-1024x.png" alt="Location" height="20" width="20">
-                        5695&nbsp;Arapaho&nbsp;Way,&nbsp;Kelseyville
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <span class="full-text">5695 Arapaho Way, Kelseyville</span>
+                        <span class="short-text">Address</span>
                     </a>
                 </div>
             </div>
@@ -54,56 +57,52 @@
                 <ul class="navbar-nav ms-auto">
                     <!-- Enroll Button -->
                     <li class="nav-item">
-                        <li class="nav-item">
-                            <a class="btn contact-button enroll-button" href="mailto:gmail@gmail.com">Enroll</a>
-                        </li>
+                        <a class="btn btn-lg btn-success" href="mailto:gmail@gmail.com"> Enroll</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Almost done, //TODO
-        Change mail:to, and update about/info to forms.
-    -->
 
 
     <!-- carousel -->
-    <div id="mainCarousel" class="container carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
+    <div id="mainCarousel" class="container carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="widelengthfam.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block wtxt">
-              <h5>Welcoming All</h5>
-              <p class="carousel-txt">Your child will become a part of our family.</p>
+            <div class="carousel-item active">
+                <img src="widelengthfam.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block wtxt">
+                    <h5>Welcoming All</h5>
+                    <p class="carousel-txt">Your child will become a part of our family.</p>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="widelengthjpg.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block wtxt">
-              <h5>Play Area</h5>
-              <p class="carousel-txt">Fun spacious area for activities and games.</p>
+            <div class="carousel-item">
+                <img src="widelengthjpg.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block wtxt">
+                    <h5>Play Area</h5>
+                    <p class="carousel-txt">Fun spacious area for activities and games.</p>
+                </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="widelength-happy.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Qualified</h5>
-              <p class="carousel-txt">Licensed since January 2nd, 2019 </p>
+            <div class="carousel-item">
+                <img src="widelength-happy.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Qualified</h5>
+                    <p class="carousel-txt">Licensed since January 2nd, 2019 </p>
+                </div>
             </div>
-          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
     </div>
 
@@ -114,7 +113,11 @@
             <h2>Here's The Why</h2>
             <div>
                 <p>
-                    I opened my daycare because I could not find childcare for my son. He was passed around between family members and co-workers. One night, after work, I jumped into my vehicle and I could not remember where I left him. I had to call everyone I knew to see where he was. After I located him, I knew my current situation was not working. That is when I decided I needed to open my childcare so families would not have to go through what I experienced that night.
+                    I opened my daycare because I could not find childcare for my son. He was passed around between
+                    family members and co-workers. One night, after work, I jumped into my vehicle and I could not
+                    remember where I left him. I had to call everyone I knew to see where he was. After I located him, I
+                    knew my current situation was not working. That is when I decided I needed to open my childcare so
+                    families would not have to go through what I experienced that night.
                 </p>
             </div>
         </div>
@@ -123,14 +126,17 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
-                <img  src="width-img.jpg" class="img-fluid" alt="">
+                <img src="width-img.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-md-6">
                 <div>
                     <ul>
-                        <li class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                        <li class="mb-4">Consequatur deserunt saepe fugiat beatae, molestias quos impedit deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                        <li class="mb-4">Voluptatibus sunt porro aut minus ut? In assumenda quod quasi! Minus, nihil corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit.</li>
+                        <li class="mb-4">Consequatur deserunt saepe fugiat beatae, molestias quos impedit deleniti.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li class="mb-4">Voluptatibus sunt porro aut minus ut? In assumenda quod quasi! Minus, nihil
+                            corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                     </ul>
                 </div>
             </div>
@@ -141,80 +147,90 @@
             <div class="col-md-6">
                 <div>
                     <ul>
-                        <li class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                        <li class="mb-4">Consequatur deserunt saepe fugiat beatae, molestias quos impedit deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                        <li class="mb-4">Voluptatibus sunt porro aut minus ut? In assumenda quod quasi! Minus, nihil corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit.</li>
+                        <li class="mb-4">Consequatur deserunt saepe fugiat beatae, molestias quos impedit deleniti.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li class="mb-4">Voluptatibus sunt porro aut minus ut? In assumenda quod quasi! Minus, nihil
+                            corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                     </ul>
-                </div>  
+                </div>
             </div>
             <div class="col-md-6">
-                <img  src="width-img.jpg" class="img-fluid" alt="">
+                <img src="width-img.jpg" class="img-fluid" alt="">
             </div>
         </div>
     </div>
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6">
-                <img  src="width-img.jpg" class="img-fluid" alt="">
+                <img src="width-img.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-md-6">
                 <div>
                     <ul>
-                        <li class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                        <li class="mb-4">Consequatur deserunt saepe fugiat beatae, molestias quos impedit deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                        <li class="mb-4">Voluptatibus sunt porro aut minus ut? In assumenda quod quasi! Minus, nihil corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit.</li>
+                        <li class="mb-4">Consequatur deserunt saepe fugiat beatae, molestias quos impedit deleniti.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li class="mb-4">Voluptatibus sunt porro aut minus ut? In assumenda quod quasi! Minus, nihil
+                            corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
     <!-- 3 container img + content -->
-        <div class="container mt-5">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <div class="three-image">
-                        <img src="200x400-kid.jpg" class="img-fluid" alt="">
-                        <div class="text-overlay">
-                                <h3 class="h3-overlay">Safe Sleeping</h3>
-                                <p class="p-overlay">Safe sleeping for infants and toddlers. At our daycare, naps are always allowed whenever the child needs.</p>
-                        </div>
+    <div class="container mt-5">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <div class="three-image">
+                    <img src="200x400-kid.jpg" class="img-fluid" alt="">
+                    <div class="text-overlay">
+                        <h3 class="h3-overlay">Safe Sleeping</h3>
+                        <p class="p-overlay">Safe sleeping for infants and toddlers. At our daycare, naps are always
+                            allowed whenever the child needs.</p>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="three-image">
-                        <img src="200x400-kid.jpg" class="img-fluid" alt="Placeholder Image">
-                        <div class="text-overlay">
-                            <h3 class="h3-overlay">Home-Based</h3>
-                            <p class="p-overlay">We are a home-based, preschool. We offer a curriculum for ages 0-4 to get them ready for kindergarten.</p>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="col-md-4">
-                    <div class="three-image">
-                        <img src="200x400-kid.jpg" class="img-fluid" alt="Placeholder Image">
-                        <div class="text-overlay">
-                            <h3 class="h3-overlay">Self-Development Focus</h3>
-                            <p class="p-overlay">Develop manners, social skills, and self-help techniques. Homework and learning assistance are provided.</p>
-                        </div>
-                    </div>
-                   
                 </div>
             </div>
-        </div>
+            <div class="col-md-4">
+                <div class="three-image">
+                    <img src="200x400-kid.jpg" class="img-fluid" alt="Placeholder Image">
+                    <div class="text-overlay">
+                        <h3 class="h3-overlay">Home-Based</h3>
+                        <p class="p-overlay">We are a home-based, preschool. We offer a curriculum for ages 0-4 to get
+                            them ready for kindergarten.</p>
+                    </div>
+                </div>
 
-<!-- Google Maps View -->
-    <div class="container">
-        <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=5695%20Arapaho%20Way,%20Kelseyville,%20CA%2095451+(Melissa's%20Family%20Daycare)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            </div>
+            <div class="col-md-4">
+                <div class="three-image">
+                    <img src="200x400-kid.jpg" class="img-fluid" alt="Placeholder Image">
+                    <div class="text-overlay">
+                        <h3 class="h3-overlay">Self-Development Focus</h3>
+                        <p class="p-overlay">Develop manners, social skills, and self-help techniques. Homework and
+                            learning assistance are provided.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Maps View -->
+    <div class="container-fluid">
+        <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=5695%20Arapaho%20Way,%20Kelseyville,%20CA%2095451+(Melissa's%20Family%20Daycare)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
         </iframe>
     </div>
 
 
-<!--
+    <!--
     Footer
 Fill out context of content
 -->
-    <footer class="footer bg-light py-4">
+    <footer class="footer py-4">
         <div class="container">
             <div class="row text-center">
                 <!-- FOOTER X__ -->
@@ -222,13 +238,14 @@ Fill out context of content
                     <h3>Contact</h3>
                     <ul class="list-unstyled">
                         <li><a href="mailto:gmail@gmail.com" target="_blank">
-                            <img src="email.png" alt="Gmail">
-                            Gmail
-                        </a></li>
-                        <li><a href="https://www.facebook.com/people/Melissas-family-daycare/100063643806636/" target="_blank">
-                            <img src="facebook.png" alt="facebook">
-                            Facebook
-                        </a></li>
+                                <img src="email.png" alt="Gmail">
+                                Gmail
+                            </a></li>
+                        <li><a href="https://www.facebook.com/people/Melissas-family-daycare/100063643806636/"
+                                target="_blank">
+                                <img src="facebook.png" alt="facebook">
+                                Facebook
+                            </a></li>
                     </ul>
                     <!--<p><a href="tel:(707)350-3091" target="_blank"><img src="DM-CALL-black-1024x.png" alt="phone call">Call</a></p>-->
                 </div>
@@ -246,7 +263,6 @@ Fill out context of content
                     <h3>Additional Forms</h3>
                     <div class="contact-button">
                         <a href="https://forms.gle/8y4H6UfwdD9HRfkz5" target="_blank">Enroll</a>
-                        <a href="https://forms.gle/8y4H6UfwdD9HRfkz5" target="_blank">Contact</a>
                     </div>
                 </div>
             </div>
@@ -255,13 +271,6 @@ Fill out context of content
             </div>
         </div>
     </footer>
-
-
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-
 </body>
 
 </html>
