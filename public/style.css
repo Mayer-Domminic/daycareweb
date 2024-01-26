@@ -44,23 +44,13 @@ header {
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 nav {
     background-color: #E9EDC9;
 }
 
 body {
     background-color: #FEFAE0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header img,
@@ -72,12 +62,15 @@ body {
 h1 {
     font-size: 1.75rem;
     font-weight: bold;
-    color: #36563e;
 }
 
 h2 {
     font-size: 2.75rem;
     font-weight: bolder;
+    font-weight: 600; 
+    color: #383838; 
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -95,13 +88,14 @@ h5 {
 
 p {
     font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 .carousel-txt {
     font-weight: 400;
     color: white;
 }
-
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -117,7 +111,6 @@ p {
     height: 100%;
 }
 
-
 /* Custom styling for different sections, modify as needed */
 .custom-section {
     padding: 50px 0;
@@ -128,27 +121,6 @@ p {
     list-style-type: none;
     /* Removes default bullet points */
     padding: 0;
-}
-
-.newsList li {
-    margin-bottom: 10px;
-    /* Adjust space between list items */
-    position: relative;
-    padding-left: 25px;
-    /* Provide space for the icon */
-}
-
-
-.newsList li .fa-bell {
-    position: absolute;
-    left: 0;
-    /* Aligns the icon to the left */
-    top: 0;
-    /* Adjust this if needed to align vertically with the text */
-    color: #000000;
-    /* Change color if necessary */
-    /* You can also adjust the size, color, etc., of the icon here */
-
 }
 
 .no-gutters {
@@ -163,9 +135,15 @@ p {
     /* This makes the positioning of the overlay text relative to each div */
 }
 
-.img-fluid {
-    width: 100%;
-    height: 300;
+.img-wrapper {
+  max-width: 300px; /* Or whatever your desired image size is */
+  margin: auto; /* This centers the image in the column if it's smaller than the column width */
+}
+
+@media (max-width: 767.98px) { /* Adjust this value to the breakpoint you want */
+  .img-wrapper {
+    max-width: 100%; /* Allow image to scale on smaller screens */
+  }
 }
 
 #info-list {
@@ -177,31 +155,21 @@ p {
 ul {
     list-style-type: disc;
     padding: 0;
-    margin: 0;
+    margin-left: 20px;
 }
 
-.three-image {
-    opacity: 1;
-    display: block;
-    transition: 0.5s ease;
+.three-image h3{
+    position: relative;
+    text-align: center;
 }
 
-/* Positioning for h3 */
-.h3-overlay {
-    position: absolute;
-    bottom: .8rem;
-    left: .8rem;
-    bottom: 25%;
-    color: white;
-    text-decoration: underline;
+.three-image p{
+    position: relative;
 }
 
-/* Positioning for paragraph */
-.p-overlay {
-    position: absolute;
-    bottom: .8rem;
-    left: .8rem;
-    color: white;
+.three-image img {
+    width: 100%;
+    height: auto;
 }
 
 .footer {
@@ -291,8 +259,6 @@ ul {
 #footerCarousel .carousel-item p {
     color: #666;
 }
-
-
 
 /*  BUTTON */
 .contact-button {
