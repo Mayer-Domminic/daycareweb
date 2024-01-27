@@ -16,9 +16,9 @@ h4 {
 }
 
 /* ADJUST THIS FOR MAX CONTAINER */
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
     .container {
-        width: 920px;
+        width: 1000px;
     }
 }
 
@@ -44,7 +44,7 @@ header {
     align-items: center;
 }
 
-nav {
+.navbar {
     background-color: #E9EDC9;
 }
 
@@ -87,9 +87,8 @@ h5 {
 }
 
 p {
-    font-size: 1.25rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.25;
 }
 
 .carousel-txt {
@@ -104,12 +103,7 @@ p {
     outline: black;
 }
 
-.navbar .nav-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
+
 
 /* Custom styling for different sections, modify as needed */
 .custom-section {
@@ -177,6 +171,7 @@ ul {
     /* Light gray background */
     color: #6c757d;
     /* Dark gray text */
+    text-align: center;
 }
 
 .footer h5 {
@@ -186,13 +181,16 @@ ul {
     /* Spacing under headings */
 }
 
-.footer p {
-    font-size: 0.9rem;
+.ftTxt {
+    font-size: 1rem;
+    color: #000000;
+    margin: 0;
+    padding: 0;
     /* Smaller font size for footer text */
 }
 
 .footer a {
-    color: #007bff;
+    color: #000000;
     /* Bootstrap primary color for links */
     text-decoration: none;
     /* No underline on links */
