@@ -103,18 +103,14 @@ p {
     outline: black;
 }
 
-
+#welcome p {    
+    line-height: 1.25;
+}
 
 /* Custom styling for different sections, modify as needed */
 .custom-section {
     padding: 50px 0;
     background-color: #E9EDC9;
-}
-
-.newsList {
-    list-style-type: none;
-    /* Removes default bullet points */
-    padding: 0;
 }
 
 .no-gutters {
@@ -140,25 +136,20 @@ p {
   }
 }
 
-#info-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 ul {
     list-style-type: disc;
     padding: 0;
     margin-left: 20px;
 }
 
-.three-image h3{
+.three-image h2{
     position: relative;
     text-align: center;
 }
 
 .three-image p{
     position: relative;
+    line-height: 1.25;
 }
 
 .three-image img {
