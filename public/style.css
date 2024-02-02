@@ -18,7 +18,7 @@ h4 {
 /* ADJUST THIS FOR MAX CONTAINER */
 @media (min-width: 1200px) {
     .container {
-        width: 1000px;
+        width: 1100px;
     }
 }
 
@@ -67,10 +67,8 @@ h1 {
 h2 {
     font-size: 2.75rem;
     font-weight: bolder;
-    font-weight: 600; 
-    color: #383838; 
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-weight: 600;
+    color: #383838;
 }
 
 h3 {
@@ -103,43 +101,9 @@ p {
     outline: black;
 }
 
-#welcome p {    
-    line-height: 1.25;
-}
-
-/* Custom styling for different sections, modify as needed */
-.custom-section {
-    padding: 50px 0;
-    background-color: #E9EDC9;
-}
-
-.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.no-gutters>div {
-    padding-right: 0;
-    padding-left: 0;
-    position: relative;
-    /* This makes the positioning of the overlay text relative to each div */
-}
-
-.img-wrapper {
-  max-width: 300px; /* Or whatever your desired image size is */
-  margin: auto; /* This centers the image in the column if it's smaller than the column width */
-}
-
-@media (max-width: 767.98px) { /* Adjust this value to the breakpoint you want */
-  .img-wrapper {
-    max-width: 100%; /* Allow image to scale on smaller screens */
-  }
-}
-
 ul {
-    list-style-type: disc;
     padding: 0;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .three-image h2{
@@ -159,17 +123,13 @@ ul {
 
 .footer {
     background-color: #E9EDC9;
-    /* Light gray background */
     color: #6c757d;
-    /* Dark gray text */
     text-align: center;
 }
 
 .footer h5 {
     color: #343a40;
-    /* Slightly darker color for headings */
     margin-bottom: 0.5rem;
-    /* Spacing under headings */
 }
 
 .ftTxt {
@@ -177,34 +137,26 @@ ul {
     color: #000000;
     margin: 0;
     padding: 0;
-    /* Smaller font size for footer text */
 }
 
 .footer a {
     color: #000000;
-    /* Bootstrap primary color for links */
     text-decoration: none;
-    /* No underline on links */
 }
 
 .footer a:hover {
     text-decoration: underline;
-    /* Underline on hover for better usability */
 }
 
 .footer ul {
     padding-left: 0;
-    /* Remove default padding */
     list-style-type: none;
-    /* No bullet points */
 }
 
 .footer .fas {
     margin-right: 0.5rem;
-    /* Space between icon and text */
 }
 
-/* Center content on small screens and add padding */
 @media (max-width: 768px) {
     .footer .col-md-4 {
         text-align: center;
@@ -213,18 +165,13 @@ ul {
 
     .footer .col-md-4:last-child {
         margin-bottom: 0;
-        /* Remove margin for the last column on small screens */
     }
 }
 
-/* Footer copyright text style */
 .footer .text-center p {
     color: #6c757d;
-    /* Dark gray text */
     margin-top: 1rem;
-    /* Space above the copyright text */
     font-size: 0.8rem;
-    /* Smaller font size for copyright text */
 }
 
 #footerCarousel {
@@ -249,32 +196,6 @@ ul {
     color: #666;
 }
 
-/*  BUTTON */
-.contact-button {
-    text-align: center;
-    margin-top: 10px;
-}
-
-/*  BUTTON */
-.contact-button a {
-    display: inline-block;
-    padding: 10px 10px;
-    background-color: white;
-    color: #000000;
-    text-decoration: none;
-    border: 3px solid transparent;
-    border-image: linear-gradient(to right, yellow, limegreen);
-    border-image-slice: 1;
-    font-weight: bold;
-}
-
-/*  BUTTON */
-.contact-button a:hover {
-    background: linear-gradient(to right, limegreen, yellow);
-    border: 3px solid black;
-}
-
-/* Specific styling for the Enroll button */
 .enroll-button {
     background-color: white;
     color: #000;
@@ -295,4 +216,29 @@ ul {
     background: linear-gradient(to right, limegreen, yellow);
     color: #000;
     border: 3px solid black;
+}
+
+
+
+.details-section {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.underline {
+    width: 99px;
+    height: 3px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+.three-image p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-top: 10px;
+}
+
+.two-bull {
+    font-size: 1.25rem;
 }
